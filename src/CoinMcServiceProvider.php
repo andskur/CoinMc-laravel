@@ -1,11 +1,11 @@
 <?php
 
-namespace Andskur\CoinMc-laravel;
+namespace Andskur\CoinMc;
 
 use Illuminate\Support\ServiceProvider;
-use Andskur\CoinMc-laravel\CoinMcContainer;
+use Andskur\CoinMc\CoinMcContainer;
 
-class CoinMcProvider extends ServiceProvider
+class CoinMcServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.

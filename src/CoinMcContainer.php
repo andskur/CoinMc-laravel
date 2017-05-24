@@ -1,6 +1,6 @@
 <?php
 
-namespace Andskur\CoinMc-laravel;
+namespace Andskur\CoinMc;
 
 use GuzzleHttp\Client;
 
