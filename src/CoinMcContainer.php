@@ -38,7 +38,7 @@ class CoinMcContainer
 	}
 
 	/**
-	 * Return CoinMarketCap tickers sorting by 24h volume
+	 * Get CoinMarketCap tickers sorting by 24h volume
 	 * @param  string $limit    	Only returns the top limit results
 	 * @param  string $currency 	Currency for convert (default - USD)
 	 * @return json            		All ticker object
