@@ -50,7 +50,7 @@ class CoinMcContainer
 		if ($currency) {
 			$params['convert'] = $currency;
 		}
-		if ($limit) {
+		if ($limit !== false) {
 			$params['limit'] = $limit;
 		}
 
